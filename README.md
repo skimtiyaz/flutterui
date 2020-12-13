@@ -47,12 +47,12 @@ I have used several flutter packages in this project, so thanks to the package d
  - [colormixer.web.app](https://colormixer.web.app/02007115ff623007ff9bc91b64440301ffff7c5f55610300/Sunset)
  - [colorable.jxnblk.com](https://colorable.jxnblk.com/f4d095/072c67)
  - [getavataaars.com](https://getavataaars.com/?accessoriesType=Kurt&avatarStyle=Circle&clotheColor=Blue02&clotheType=Overall&eyeType=Surprised&eyebrowType=UnibrowNatural&facialHairColor=Red&facialHairType=BeardMedium&graphicType=Diamond&hairColor=SilverGray&hatColor=Black&mouthType=Smile&skinColor=Light&topType=ShortHairShortCurly)
- - [https://getwaves.io](https://getwaves.io/)
- - [https://www.blobmaker.app](https://www.blobmaker.app/)
+ - [getwaves.io](https://getwaves.io/)
+ - [blobmaker.app](https://www.blobmaker.app/)
  - [duotone.shapefactory.co](https://duotone.shapefactory.co/?f=00daff&t=2100ff&q=_)
- - [https://undraw.co/illustrations](https://undraw.co/illustrations)
- - [https://usesmash.com](https://usesmash.com/)
- - [https://control.rocks](https://control.rocks/)
+ - [undraw.co/illustrations](https://undraw.co/illustrations)
+ - [usesmash.com](https://usesmash.com/)
+ - [control.rocks](https://control.rocks/)
 
 ## Licence
 FlutterUI grants you an irrevocable, nonexclusive, copyright license to copy, modify and use code from FlutterUI for free, including for commercial purposes, without permission from or attributing.
