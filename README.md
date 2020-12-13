@@ -1,6 +1,6 @@
 ![Logo](https://raw.githubusercontent.com/Tjpatel16/flutterui/master/assets/images/logo.png)
 
-FlutterUI is a 100% free Flutter open-source project. I am designing a different type of single page and widget for mobile app. You can make easy and fast apps using my code. You can use it for commercial and non-commercial purposes without permission from or attributing.
+FlutterUI is a 100% free Flutter open-source project. I am designing a different type of single page and widget for mobile app. You can make easy and fast apps using my code. You can use it for commercial and non-commercial purposes without permission or attributing.
 ## Design
 
  - Animation
@@ -55,4 +55,4 @@ I have used several flutter packages in this project, so thanks to the package d
  - [control.rocks](https://control.rocks/)
 
 ## Licence
-FlutterUI grants you an irrevocable, nonexclusive, copyright license to copy, modify and use code from FlutterUI for free, including for commercial purposes, without permission from or attributing.
+FlutterUI grants you an irrevocable, nonexclusive, copyright license to copy, modify and use code from FlutterUI for free, including for commercial purposes, without permission or attributing.
