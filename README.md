@@ -17,13 +17,18 @@ FlutterUI is a 100% free Flutter open-source project. I am designing a different
 
  - Ecommerce
 	 - Ecommerce layout 1 [[code]](https://github.com/Tjpatel16/flutterui/blob/master/lib/ui/pages/ecommerce/ecommerce_layout1.dart) [[screenshot]](https://raw.githubusercontent.com/Tjpatel16/flutterui/master/assets/screenshot/ecommerce_layout1.jpg.jpg)
+	 - Ecommerce layout 2 [[code]](https://github.com/Tjpatel16/flutterui/blob/master/lib/ui/pages/ecommerce/ecommerce_layout2.dart) [[screenshot]](https://raw.githubusercontent.com/Tjpatel16/flutterui/master/assets/screenshot/ecommerce_layout2.jpg)
+	 - Ecommerce layout 3 [[code]](https://github.com/Tjpatel16/flutterui/blob/master/lib/ui/pages/ecommerce/ecommerce_layout3.dart) [[screenshot]](https://raw.githubusercontent.com/Tjpatel16/flutterui/master/assets/screenshot/ecommerce_layout3.jpg)
 
  - Food
 	 - Food layout 1 [[code]](https://github.com/Tjpatel16/flutterui/blob/master/lib/ui/pages/food/food_layout1.dart) [[screenshot]](https://raw.githubusercontent.com/Tjpatel16/flutterui/master/assets/screenshot/food_layout1.jpg.jpg)
+	 - Food layout 2 [[code]](https://github.com/Tjpatel16/flutterui/blob/master/lib/ui/pages/food/food_layout2.dart) [[screenshot]](https://raw.githubusercontent.com/Tjpatel16/flutterui/master/assets/screenshot/food_layout2.jpg)
 
  - Product details
 	 - Product details 1 [[code]](https://github.com/Tjpatel16/flutterui/blob/master/lib/ui/pages/product_details/product_details1.dart) [[screenshot]](https://raw.githubusercontent.com/Tjpatel16/flutterui/master/assets/screenshot/product_details1.jpg.jpg)
 
+ - Single widget
+	 - Button [[code]](https://github.com/Tjpatel16/flutterui/blob/master/lib/ui/pages/single_widget/buttons.dart) [[screenshot]](https://raw.githubusercontent.com/Tjpatel16/flutterui/master/assets/screenshot/buttons.jpg)
 
 ## Thank you to creators
 I have used several flutter packages in this project, so thanks to the package developers.
@@ -35,7 +40,19 @@ I have used several flutter packages in this project, so thanks to the package d
 	 - countdown: ^0.1.0 [[link]](https://pub.dev/packages/countdown)
 	 - pin_code_fields: ^6.0.1 [[link]](https://pub.dev/packages/pin_code_fields)
 	 - smooth_page_indicator: ^0.2.0 [[link]](https://pub.dev/packages/smooth_page_indicator)
+	 - flutter_staggered_grid_view: ^0.3.2 [[link]](https://pub.dev/packages/flutter_staggered_grid_view)
+
+
+## Useful resources
+ - [colormixer.web.app](https://colormixer.web.app/02007115ff623007ff9bc91b64440301ffff7c5f55610300/Sunset)
+ - [colorable.jxnblk.com](https://colorable.jxnblk.com/f4d095/072c67)
+ - [getavataaars.com](https://getavataaars.com/?accessoriesType=Kurt&avatarStyle=Circle&clotheColor=Blue02&clotheType=Overall&eyeType=Surprised&eyebrowType=UnibrowNatural&facialHairColor=Red&facialHairType=BeardMedium&graphicType=Diamond&hairColor=SilverGray&hatColor=Black&mouthType=Smile&skinColor=Light&topType=ShortHairShortCurly)
+ - [https://getwaves.io](https://getwaves.io/)
+ - [https://www.blobmaker.app](https://www.blobmaker.app/)
+ - [duotone.shapefactory.co](https://duotone.shapefactory.co/?f=00daff&t=2100ff&q=_)
+ - [https://undraw.co/illustrations](https://undraw.co/illustrations)
+ - [https://usesmash.com](https://usesmash.com/)
+ - [https://control.rocks](https://control.rocks/)
 
 ## Licence
 FlutterUI grants you an irrevocable, nonexclusive, copyright license to copy, modify and use code from FlutterUI for free, including for commercial purposes, without permission from or attributing.
-
