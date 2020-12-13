@@ -47,7 +47,7 @@ class _EcommerceLayout1State extends State<EcommerceLayout1> {
 
   Widget _appBarWidget() {
     return AppBar(
-      title: Text('Welcome'),
+      title: Text(MyString.appName),
       automaticallyImplyLeading: false,
       elevation: 0.0,
       backgroundColor: MyColors.ec_color1,
@@ -75,7 +75,7 @@ class _EcommerceLayout1State extends State<EcommerceLayout1> {
               color: Colors.white,
             ),
           ),
-        )
+        ),
       ],
     );
   }

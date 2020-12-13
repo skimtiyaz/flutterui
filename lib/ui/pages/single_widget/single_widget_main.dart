@@ -1,19 +1,17 @@
 import 'package:flutterui/ui/Widget/listview_tile.dart';
-import 'package:flutterui/ui/pages/ecommerce/ecommerce_layout1.dart';
-import 'package:flutterui/ui/pages/ecommerce/ecommerce_layout2.dart';
-import 'package:flutterui/ui/pages/ecommerce/ecommerce_layout3.dart';
+import 'package:flutterui/ui/pages/single_widget/buttons.dart';
 import 'package:flutterui/ui/values/colors.dart';
 import 'package:flutterui/ui/values/strings.dart';
 import 'package:flutter/material.dart';
 
-class EcommerceMain extends StatefulWidget {
-  EcommerceMain({Key key}) : super(key: key);
+class SingleWidgetMain extends StatefulWidget {
+  SingleWidgetMain({Key key}) : super(key: key);
 
   @override
-  _EcommerceMainState createState() => _EcommerceMainState();
+  _SingleWidgetMainState createState() => _SingleWidgetMainState();
 }
 
-class _EcommerceMainState extends State<EcommerceMain> {
+class _SingleWidgetMainState extends State<SingleWidgetMain> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,17 +20,17 @@ class _EcommerceMainState extends State<EcommerceMain> {
       body: ListView(
         children: [
           ListViewTile(
-            page: EcommerceLayout1(),
-            name: 'Layout 1',
+            page: Buttons(),
+            name: 'Button',
           ),
           Divider(),
           ListViewTile(
-            page: EcommerceLayout2(),
+            page: Buttons(),
             name: 'Layout 2',
           ),
           Divider(),
           ListViewTile(
-            page: EcommerceLayout3(),
+            page: Buttons(),
             name: 'Layout 3',
           ),
         ],
@@ -44,7 +42,7 @@ class _EcommerceMainState extends State<EcommerceMain> {
     return AppBar(
       backgroundColor: MyColors.primaryColor,
       title: Text(
-        MyString.ecommerce,
+        MyString.single_widget,
       ),
     );
   }

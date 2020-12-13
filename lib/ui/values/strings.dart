@@ -1,5 +1,5 @@
 class MyString {
-  static const appName = 'flutterui';
+  static const appName = 'flutterUI';
   static const version = 'Version: 0.0.1';
 
   ///pages
@@ -9,6 +9,8 @@ class MyString {
   static const food = 'Food';
   static const ecommerce = 'Ecommerce';
   static const product_details = 'Product Details';
+  static const single_widget = 'Single Widget';
+  static const button = 'Button';
 
   ///text
   static const log_in = 'Log in';
@@ -43,5 +45,7 @@ class MyString {
   static const page1 = 'Page 1';
   static const page2 = 'Page 2';
   static const categories = 'Categories';
+  static const trending = 'Treding';
+  static const popular = 'Popular';
   static const view_all = 'View all';
 }

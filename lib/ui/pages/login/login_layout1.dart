@@ -171,6 +171,11 @@ class _LoginLayout1State extends State<LoginLayout1> {
                           color: MyColors.secondaryColor,
                         ),
                       ),
+                      suffixIcon: Icon(
+                        Icons.email_outlined,
+                        color: Colors.white,
+                        size: 18.0,
+                      ),
                     ),
                   ),
                   SizedBox(
