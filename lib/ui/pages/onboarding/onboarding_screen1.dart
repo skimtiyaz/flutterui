@@ -58,8 +58,7 @@ class _OnboardingScreen1State extends State<OnboardingScreen1> {
                   _skipBtnWidget(),
                   _pageViewWidget(),
                   _indicaterWidget(),
-                  _floatingActionButtonWidget(),
-                  _floatingActionButtonWidget(),
+                  _rowFloatingActionButtonWidget()
                 ],
               ),
             ),
@@ -122,34 +121,56 @@ class _OnboardingScreen1State extends State<OnboardingScreen1> {
     );
   }
 
-  Widget _floatingActionButtonWidget() {
+  Widget _rowFloatingActionButtonWidget() {
+    return Row(
+      children: [
+        _previousFloatingActionButtonWidget(),
+        _nextFloatingActionButtonWidget(),
+      ],
+    );
+  }
+
+  Widget _nextFloatingActionButtonWidget() {
     return _currentPage != widget.pages.length - 1
         ? Expanded(
             child: Align(
               alignment: FractionalOffset.bottomRight,
               child: Padding(
-                padding: EdgeInsets.only(right: 20, bottom: 10),
-                child: FloatingActionButton.extended(
+                padding: EdgeInsets.fromLTRB(10.0, 20.0, 10.0, 0.0),
+                child: FloatingActionButton(
                   backgroundColor: widget.bgColor,
-                  label: Row(
-                    children: [
-                      Text(
-                        'Next',
-                        style: TextStyle(
-                          color: widget.themeColor,
-                        ),
-                      ),
-                      SizedBox(
-                        width: 5.0,
-                      ),
-                      Icon(
-                        Icons.arrow_forward,
-                        color: widget.themeColor,
-                      ),
-                    ],
+                  child: Icon(
+                    Icons.arrow_forward,
+                    color: widget.themeColor,
                   ),
                   onPressed: () {
                     _pageController.nextPage(
+                      duration: Duration(milliseconds: 500),
+                      curve: Curves.ease,
+                    );
+                  },
+                ),
+              ),
+            ),
+          )
+        : SizedBox();
+  }
+
+  Widget _previousFloatingActionButtonWidget() {
+    return _currentPage != 0
+        ? Expanded(
+            child: Align(
+              alignment: FractionalOffset.bottomLeft,
+              child: Padding(
+                padding: EdgeInsets.fromLTRB(10.0, 20.0, 10.0, 0.0),
+                child: FloatingActionButton(
+                  backgroundColor: widget.bgColor,
+                  child: Icon(
+                    Icons.arrow_back,
+                    color: widget.themeColor,
+                  ),
+                  onPressed: () {
+                    _pageController.previousPage(
                       duration: Duration(milliseconds: 500),
                       curve: Curves.ease,
                     );

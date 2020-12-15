@@ -42,7 +42,7 @@ class _OnBoardingMainMainState extends State<OnBoardingMain> {
     return AppBar(
       backgroundColor: MyColors.primaryColor,
       title: Text(
-        MyString.food,
+        MyString.onBoarding_design,
       ),
     );
   }
