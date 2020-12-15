@@ -11,6 +11,7 @@ class MyString {
   static const product_details = 'Product Details';
   static const single_widget = 'Single Widget';
   static const button = 'Button';
+  static const onBoarding_design = 'OnBoarding Design';
 
   ///text
   static const log_in = 'Log in';

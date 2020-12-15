@@ -1,18 +1,17 @@
 import 'package:flutterui/ui/Widget/listview_tile.dart';
-import 'package:flutterui/ui/pages/product_details/product_details1.dart';
-import 'package:flutterui/ui/pages/product_details/product_details2.dart';
+import 'package:flutterui/ui/pages/onboarding/onboarding_layout1.dart';
 import 'package:flutterui/ui/values/colors.dart';
 import 'package:flutterui/ui/values/strings.dart';
 import 'package:flutter/material.dart';
 
-class ProductDetailsMain extends StatefulWidget {
-  ProductDetailsMain({Key key}) : super(key: key);
+class OnBoardingMain extends StatefulWidget {
+  OnBoardingMain({Key key}) : super(key: key);
 
   @override
-  _ProductDetailsMainState createState() => _ProductDetailsMainState();
+  _OnBoardingMainMainState createState() => _OnBoardingMainMainState();
 }
 
-class _ProductDetailsMainState extends State<ProductDetailsMain> {
+class _OnBoardingMainMainState extends State<OnBoardingMain> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,17 +20,17 @@ class _ProductDetailsMainState extends State<ProductDetailsMain> {
       body: ListView(
         children: [
           ListViewTile(
-            page: ProductDetails1(),
+            page: OnBoardingLayout1(),
             name: 'Layout 1',
           ),
           Divider(),
           ListViewTile(
-            page: ProductDetails2(),
+            page: OnBoardingLayout1(),
             name: 'Layout 2',
           ),
           Divider(),
           ListViewTile(
-            page: ProductDetails1(),
+            page: OnBoardingLayout1(),
             name: 'Layout 3',
           ),
         ],

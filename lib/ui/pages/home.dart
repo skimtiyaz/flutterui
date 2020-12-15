@@ -3,6 +3,7 @@ import 'package:flutterui/ui/pages/animation/animation_main.dart';
 import 'package:flutterui/ui/pages/ecommerce/ecommerce_main.dart';
 import 'package:flutterui/ui/pages/food/food_main.dart';
 import 'package:flutterui/ui/pages/login/login_main.dart';
+import 'package:flutterui/ui/pages/onboarding/onboarding_main.dart';
 import 'package:flutterui/ui/pages/phone_verification/phone_varification_main.dart';
 import 'package:flutterui/ui/pages/product_details/product_man.dart';
 import 'package:flutterui/ui/pages/single_widget/single_widget_main.dart';
@@ -58,6 +59,11 @@ class _HomePageState extends State<HomePage> {
           ListViewTile(
             page: SingleWidgetMain(),
             name: MyString.single_widget,
+          ),
+          Divider(),
+          ListViewTile(
+            page: OnBoardingMain(),
+            name: MyString.onBoarding_design,
           ),
         ],
       ),
