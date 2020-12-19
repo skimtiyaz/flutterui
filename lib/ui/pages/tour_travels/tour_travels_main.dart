@@ -1,18 +1,17 @@
 import 'package:flutterui/ui/Widget/listview_tile.dart';
-import 'package:flutterui/ui/pages/product_details/product_details1.dart';
-import 'package:flutterui/ui/pages/product_details/product_details2.dart';
+import 'package:flutterui/ui/pages/tour_travels/tour_travels_layout1.dart';
 import 'package:flutterui/ui/values/colors.dart';
 import 'package:flutterui/ui/values/strings.dart';
 import 'package:flutter/material.dart';
 
-class ProductDetailsMain extends StatefulWidget {
-  ProductDetailsMain({Key key}) : super(key: key);
+class TourTravelsMain extends StatefulWidget {
+  TourTravelsMain({Key key}) : super(key: key);
 
   @override
-  _ProductDetailsMainState createState() => _ProductDetailsMainState();
+  _TourTravelsMainMainState createState() => _TourTravelsMainMainState();
 }
 
-class _ProductDetailsMainState extends State<ProductDetailsMain> {
+class _TourTravelsMainMainState extends State<TourTravelsMain> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,19 +20,19 @@ class _ProductDetailsMainState extends State<ProductDetailsMain> {
       body: ListView(
         children: [
           ListViewTile(
-            page: ProductDetails1(),
+            page: TourTravelsLayout1(),
             name: 'Layout 1',
           ),
-          Divider(),
+         /*  Divider(),
           ListViewTile(
-            page: ProductDetails2(),
+            page: TourTravelsLayout1(),
             name: 'Layout 2',
           ),
           Divider(),
           ListViewTile(
-            page: ProductDetails1(),
+            page: TourTravelsLayout1(),
             name: 'Layout 3',
-          ),
+          ), */
         ],
       ),
     );
@@ -43,7 +42,7 @@ class _ProductDetailsMainState extends State<ProductDetailsMain> {
     return AppBar(
       backgroundColor: MyColors.primaryColor,
       title: Text(
-        MyString.product_details,
+        MyString.tour_and_travels,
       ),
     );
   }

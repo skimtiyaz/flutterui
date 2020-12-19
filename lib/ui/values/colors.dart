@@ -11,4 +11,6 @@ class MyColors {
   static const color3 = Color(0xFFfff9ef);
   static const ec_color1 = Color(0xFF5468FF);
   static const ec_color2 = Color(0xFFFAFAFA);
+  static const tu_color1 = Color(0xFF525A5D);
+  static const tu_color2 = Color(0xFF1D1D1D);
 }

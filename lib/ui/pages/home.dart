@@ -7,6 +7,7 @@ import 'package:flutterui/ui/pages/onboarding/onboarding_main.dart';
 import 'package:flutterui/ui/pages/phone_verification/phone_varification_main.dart';
 import 'package:flutterui/ui/pages/product_details/product_man.dart';
 import 'package:flutterui/ui/pages/single_widget/single_widget_main.dart';
+import 'package:flutterui/ui/pages/tour_travels/tour_travels_main.dart';
 import 'package:flutterui/ui/values/colors.dart';
 import 'package:flutterui/ui/values/strings.dart';
 import 'package:flutter/material.dart';
@@ -64,6 +65,11 @@ class _HomePageState extends State<HomePage> {
           ListViewTile(
             page: OnBoardingMain(),
             name: MyString.onBoarding_design,
+          ),
+          Divider(),
+          ListViewTile(
+            page: TourTravelsMain(),
+            name: MyString.tour_and_travels,
           ),
         ],
       ),

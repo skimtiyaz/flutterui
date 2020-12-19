@@ -12,6 +12,7 @@ class MyString {
   static const single_widget = 'Single Widget';
   static const button = 'Button';
   static const onBoarding_design = 'OnBoarding Design';
+  static const tour_and_travels = 'Tour and Travels';
 
   ///text
   static const log_in = 'Log in';
