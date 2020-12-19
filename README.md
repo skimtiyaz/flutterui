@@ -31,6 +31,9 @@ FlutterUI is a 100% free Flutter open-source project. I am designing a different
 - Onboarding Design
 	 - Onboarding layout 1 [[code]](https://github.com/Tjpatel16/flutterui/blob/master/lib/ui/pages/onboarding/onboarding_layout1.dart) [[screenshot]](https://raw.githubusercontent.com/Tjpatel16/flutterui/master/assets/screenshot/onboarding_layout1.gif)
 	 
+- Tour and travels
+	 - Tour and travels layout 1 [[code]](https://github.com/Tjpatel16/flutterui/blob/master/lib/ui/pages/tour_travels/tour_travels_layout1.dart) [[screenshot]](https://raw.githubusercontent.com/Tjpatel16/flutterui/master/assets/screenshot/tour_travels_layout1.jpg)
+	 
  - Single widget
 	 - Button [[code]](https://github.com/Tjpatel16/flutterui/blob/master/lib/ui/pages/single_widget/buttons.dart) [[screenshot]](https://raw.githubusercontent.com/Tjpatel16/flutterui/master/assets/screenshot/buttons.jpg)
 
